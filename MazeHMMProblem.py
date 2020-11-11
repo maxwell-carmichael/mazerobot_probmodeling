@@ -73,7 +73,6 @@ class MazeHMMProblem:
             else:
                 distr.append(0.0)
 
-        print(distr)
         return distr
 
         # returns { color : prob distribution of given reading for each square}
@@ -111,7 +110,6 @@ class MazeHMMProblem:
                 sensorProbs['y'].append(0)
                 sensorProbs['b'].append(0)
 
-        print(sensorProbs)
         return sensorProbs
 
         # helper method which generates the transition model if robot is at a given location
@@ -142,7 +140,6 @@ class MazeHMMProblem:
 
             transM.append(self.genTransitionModelGivenLoc(loc[0], loc[1]))
 
-        print(transM)
         return transM
 
         # generate P(X_{t+1} | e_{1:t}), the probability distribution taking all evidence into account besides the current reading
