@@ -1,5 +1,4 @@
-# Maxwell Carmichael - CS 76. Reused some code from MazeWorld assignment.
-
+# Maxwell Carmichael - CS 76
 class ColoredMaze:
     def __init__(self, mazefilename):
         f = open(mazefilename)
@@ -45,11 +44,3 @@ class ColoredMaze:
         else:
             return None
 
-
-            
-# Some test code
-
-if __name__ == "__main__":
-    test_maze1 = ColoredMaze("4x4.maz")
-    print(test_maze1.map)
-    print(test_maze1.get_color(1, 0))
