@@ -1,4 +1,4 @@
-# Maxwell Carmichael
+# Maxwell Carmichael - 11/1/2020
 import random
 from ColoredMaze import ColoredMaze
 
@@ -18,8 +18,8 @@ class ColoredMazeRobot:
 
             self.loc = random.choice(tuple(starts))
 
-        self.pGood = 0.88
-        self.pBad = (1 - self.pGood) / 3
+        self.pGood = 0.88  # Constant
+        self.pBad = (1 - self.pGood) / 3  # pGood + 3*pBad = 1
 
         # move the robot, randomly uniformly in one of four directions
     def step(self):
