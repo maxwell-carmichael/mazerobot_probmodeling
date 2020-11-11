@@ -1,8 +1,5 @@
 Maxwell Carmichael
 
-Professor Alberto Quattrini Li
-###### CS76 - PA6: Hidden Markov Models
-
 ### Introduction
 In this programming assignment, I implemented a filtering algorithm to predict the locations of a robot moving randomly about an *n* x m maze, with colored tiles (red, yellow, green, blue) and walls, and the only information the robot has to predict its location is an imperfect color sensor aimed at the floor.
 
@@ -204,3 +201,8 @@ r~yr
 ```
 
 At (8) we get another incorrect reading, and we can see that the probabilities do not "recover" until step (11).
+
+
+Project for CS76 - Artificial Intelligence
+Professor Alberto Quattrini Li
+PA6: Hidden Markov Models
