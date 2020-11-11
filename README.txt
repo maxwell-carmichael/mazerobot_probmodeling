@@ -1,0 +1,1 @@
+Run test_markovmaze.py to test the 4x4.maz. You can comment in the 6x6.maz test case as well. You can also edit pGood in ColoredMazeRobot.py.
